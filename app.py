@@ -1,3 +1,4 @@
+# Redéploiement manuel
 import streamlit as st
 import pandas as pd
 import joblib
@@ -91,4 +92,5 @@ with st.expander(t["history"]):
         historique_df = pd.read_csv("historique.csv")
         st.dataframe(historique_df)
     except FileNotFoundError:
+
         st.info("ℹ️ Aucun historique trouvé / لا يوجد سجل بعد / No history found yet.")
