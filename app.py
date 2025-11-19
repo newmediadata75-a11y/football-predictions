@@ -38,7 +38,7 @@ else:
     st.info("No predictions yet." if lang=="en" else 
             "Pas encore de prédictions." if lang=="fr" else 
             "لا توجد توقعات بعد.")
-=======
+
 # Redéploiement manuel
 import streamlit as st
 import pandas as pd

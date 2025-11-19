@@ -1,10 +1,9 @@
-<<<<<<< HEAD
+ HEAD
 streamlit
 pandas
 joblib
-=======
 streamlit
 pandas
 joblib
->>>>>>> 61b9161ae40c32c2dacb307f8591f2fb19f9b72d
+61b9161ae40c32c2dacb307f8591f2fb19f9b72d
 scikit-learn
